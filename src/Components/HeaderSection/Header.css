@@ -1,0 +1,39 @@
+.header-main{
+    height: 212px;
+    width: 100%;
+    /* background-color: #FEF5F5; */
+}
+.header-content{
+    display: flex;
+    margin-left: 7rem;
+}
+.header-content-thehours{
+    font-size: 160px;
+    color: #252849;
+    font-family: Arial, Helvetica, sans-serif;
+    /* width: 713px; */
+    font-weight: 800;
+}
+
+.vertical-line {
+    border-left: 5px solid #252849;
+    height: 83px; 
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 90px;   
+    margin-left: 14px;
+  }
+
+  .header-content-news{
+    display: flex;
+    align-items: center;
+    margin: 39px;
+    max-width: 146px;
+    font-size: 27px;
+    margin-top: 75px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #252849;
+
+  }

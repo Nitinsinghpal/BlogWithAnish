@@ -1,0 +1,33 @@
+.crou-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+/* background-color: aqua; */
+}
+.crou-main video{
+    /* background-color: antiquewhite; */
+    height: 100%;
+    width: 90%;
+    object-fit: cover;
+}
+.video-player {
+    outline: none; /* Remove the focus outline */
+}
+
+.video-player::-webkit-media-controls {
+    display: none; /* Hide controls in WebKit browsers (Chrome, Safari) */
+}
+
+.video-player::-webkit-media-controls-enclosure {
+    display: none; /* Hide controls in WebKit browsers (Chrome, Safari) */
+}
+
+.video-player::-webkit-media-controls-panel {
+    display: none; /* Hide controls in WebKit browsers (Chrome, Safari) */
+}
+
+.video-player::-moz-media-controls {
+    display: none; /* Hide controls in Mozilla Firefox */
+}

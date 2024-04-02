@@ -1,0 +1,91 @@
+.footer-main {
+  height: 430px;
+  width: 100%;
+  background-color: #172a47;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footer-top {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.footer-bottom {
+  height: 10%;
+}
+.footer-left {
+  width: 62%;
+  height: 100%;
+}
+.footer-left h1 {
+  margin-top: 15%;
+  margin-bottom: 8%;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+.footer-left-form input {
+  border: none;
+  border-bottom: 1px solid #ffffff; /* Adjust color and thickness as needed */
+  outline: none; /* Remove default focus outline */
+  /* width: 100%; */
+  padding-bottom: 5px; /* Adjust distance between text and bottom line */
+  font-size: 16px; /* Adjust font size */
+  background-color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  width: 274px;
+  font-size: 19px;
+}
+.footer-left-form input::placeholder {
+  color: #ffffff; /* Adjust placeholder text color */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+.footer-left-form button {
+    cursor: pointer;
+    border: none;
+  margin-left: 15px;
+  padding: 10px 35px 10px 35px;
+  background-color: #2a53c1;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+.footer-right {
+  width: 10%;
+  height: 100%;
+}
+.footer-right-links{
+    height: 100%;
+    margin-top: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.footer-right-links a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    
+}
+.footer-bottom{
+    width: 80%;
+}
+.footer-bottom p{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
